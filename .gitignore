@@ -1,0 +1,41 @@
+# maven ignore
+#忽略Maven 项目中的target目录..也就是提交时 自动忽略target目录，这在你使用TortoiseGit 等工具的时候, <span></span>#提交内容显示区会有体现
+target/
+#忽略以下面内容 作为后缀的文件
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.class
+*.factorypath
+src/main/webapp/WEB-INF/web.xml
+src/main/webapp/WEB-INF/sx_app_config.xml
+# eclipse ignore
+.settings/
+.myeclipse/
+.project
+.classpath
+.mymetadata
+bin/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.scc
+*.back
+*.bak
+# system ignore
+.DS_Store
+Thumbs.db
+ Oracle/
+#最后说明一下,在Maven的多模块项目中,只要在你的parent项目目录下设置这么一个.gitignore就行了,子模块自动根据这个配置生效
