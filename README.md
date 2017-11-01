@@ -4,7 +4,11 @@ log4jdbc的aop支持
 ## 需要引入maven的配置文件
 
 ```xml
-
+<dependency>
+    <groupId>com.github.loverto</groupId>
+    <artifactId>log4jdbc-aop</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
 
 
